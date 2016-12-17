@@ -1,3 +1,40 @@
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.hello {
+    position: relative;
+    height: 100vh;
+    background-image:     linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ), url('bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    transition: all .5s
+}
+
+.descr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
 }
