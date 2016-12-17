@@ -34,7 +34,3 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
-.flex {
-    display: flex;
-    justify-content: space-around;
-}
