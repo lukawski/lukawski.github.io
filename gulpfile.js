@@ -52,5 +52,5 @@ gulp.task('img', function () {
 
 gulp.task('deploy', ['sass', 'html', 'js', 'img'], function () {
   return gulp.src('./dist/**/*')
-    .pipe(ghPages())
+    .pipe(ghPages({branch: 'master'}))
 })
