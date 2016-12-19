@@ -1,5 +1,11 @@
 html
   font-family: 'Roboto', sans-serif
+  font-weight: 400
+  color: #d9d9d9
+
+html, body
+  margin: 0
+  padding: 0
 
 .text-center
   text-align: center
@@ -8,18 +14,35 @@ a
   color: inherit
   &:hover
     color: inherit
+  padding: 5px
 
 .hello
-  position: relative
   height: 100vh
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bg.jpg')
+  background-image: linear-gradient(rgba(255,255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/bg.jpg')
   background-attachment: fixed
   background-size: cover
-  color: whitesmoke
+  padding-top: 10px
+  box-sizing: border-box
   transition: all 0.5s
 
-.descr
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
+h1
+  margin-top: 0
+
+img
+  max-width: 70%
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  transition: all .5s
+  &:hover
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+
+.mt-t
+  margin-top: 5em
+
+.flex
+  display: flex
+
+p
+  font-size: 1.1em
+  font-weight: 700
+
+
